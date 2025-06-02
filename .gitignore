@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# Python virtual environment files
+Pipfile.lock
+
+# Database files
+*.sqlite
+*.db
+
+# Data files (optional: ignore big raw data, keep small demo CSVs)
+
+data/*.zip
+data/*.tar
+data/*.gz
+
+# Credentials and environment variables
+.env
+*.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Airflow logs and config (if you use Airflow)
+airflow.cfg
+logs/
+
+# Dashboard build artifacts (for Streamlit/Dash)
+dashboard/__pycache__/
+dashboard/*.pyc
+
+# Exclude output files and old files
+*.bak
+*.old
+
+# (OPTIONAL) Uncomment the line below if you want to ignore all CSVs except sample or small ones
+# data/*.csv
+
+# (OPTIONAL) Ignore saved model files
+*.h5
+*.pkl
+*.joblib
+
+# Git itself
+.git/

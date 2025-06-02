@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+sqlalchemy
+psycopg2-binary
+scikit-learn
+streamlit
+requests
+jupyter
+seaborn
+notebook
